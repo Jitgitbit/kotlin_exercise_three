@@ -24,3 +24,8 @@ git add .
 git commit -m 'layoutManager set up'
 git push origin
 gst
+
+git add .
+git commit -m 'starting with RecyclerAdapters'
+git push origin
+gst
