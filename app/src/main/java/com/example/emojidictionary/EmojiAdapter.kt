@@ -13,7 +13,7 @@ class EmojiAdapter : RecyclerView.Adapter<EmojiAdapter.TextHolder>() {
     }
 
     override fun getItemCount(): Int {
-        return 100
+        return 49
     }
 
     override fun onBindViewHolder(holder: EmojiAdapter.TextHolder, position: Int) {
