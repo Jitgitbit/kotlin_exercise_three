@@ -34,3 +34,10 @@ git add .
 git commit -m 'created a new layout resource file'
 git push origin
 gst
+
+(control + command + space for emoji-menu)
+
+git add .
+git commit -m 'created a new view to return'
+git push origin
+gst
