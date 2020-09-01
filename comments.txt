@@ -46,3 +46,8 @@ git add .
 git commit -m 'onCreateViewHolder done'
 git push origin
 gst
+
+git add .
+git commit -m 'onBindViewHolder done'
+git push origin
+gst
