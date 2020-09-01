@@ -19,3 +19,8 @@ git add .
 git commit -m 'starting with a recyclerView'
 git push origin
 gst
+
+git add .
+git commit -m 'layoutManager set up'
+git push origin
+gst
