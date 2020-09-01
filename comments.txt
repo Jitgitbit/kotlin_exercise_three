@@ -66,3 +66,8 @@ git add .
 git commit -m 'switched from linear to grid'
 git push origin
 gst
+
+git add .
+git commit -m 'bugfix: item 0 is no longer behind titleBar'
+git push origin
+gst
