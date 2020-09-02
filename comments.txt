@@ -96,3 +96,8 @@ git add .
 git commit -m 'the detail works!'
 git push origin
 gst
+
+git add .
+git commit -m 'bugfix: emojis now going from edge to edge and no longer greyed out'
+git push origin
+gst
