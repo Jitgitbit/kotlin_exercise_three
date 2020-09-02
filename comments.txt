@@ -81,3 +81,8 @@ git add .
 git commit -m 'started with new Activity'
 git push origin
 gst
+
+git add .
+git commit -m 'new Intent created'
+git push origin
+gst

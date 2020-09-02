@@ -1,5 +1,6 @@
 package com.example.emojidictionary
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -26,13 +27,17 @@ class EmojiAdapter(val emojis: ArrayList<String>) : RecyclerView.Adapter<EmojiAd
         var view : View = v
         var emoji : String = ""
 
+        init {
+            v.setOnClickListener(this)
+        }
+
         fun bindEmoji(emoji:String) {
             this.emoji = emoji
             view.itemTextView.text = emoji
         }
 
         override fun onClick(p0: View?) {
-            TODO("Not yet implemented")
+            val detailIntent = Intent(view.context, EmojiDetailActivity::class.java)
         }
     }
 }
