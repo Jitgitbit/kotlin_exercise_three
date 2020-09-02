@@ -101,3 +101,8 @@ git add .
 git commit -m 'bugfix: emojis now going from edge to edge and no longer greyed out'
 git push origin
 gst
+
+git add .
+git commit -m 'added one last emoji to show the use for the app, highlighting the detail of the images lines and colors'
+git push origin
+gst
