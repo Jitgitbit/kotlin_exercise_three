@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         layoutManager = GridLayoutManager(this, 7)
         recyclerView.layoutManager = layoutManager
 
-        adapter = EmojiAdapter(arrayListOf("😅","👍","😂","🔥","🤔","😃","😇","😎","🤓","🧐","😘","🙈","🥑","🏥","🏦","🏰","🌇","📺","🦠","🎉","🔒","💔","🛀","😜","🏁","🐈","🐑","🤥"))
+        adapter = EmojiAdapter(arrayListOf("😅","👍","😂","🔥","🤔","😃","😇","😎","🤓","🧐","😘","🙈","🥑","🏥","🏦","🏰","🌇","📺","🦠","🎉","🔒","💔","🛀","😜","🏁","🐈","🐑","🤥","🍍","🧿"))
         recyclerView.adapter = adapter
     }
 }

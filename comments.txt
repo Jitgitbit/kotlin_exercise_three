@@ -76,3 +76,8 @@ git add .
 git commit -m 'put in arrayList and using it'
 git push origin
 gst
+
+git add .
+git commit -m 'started with new Activity'
+git push origin
+gst
