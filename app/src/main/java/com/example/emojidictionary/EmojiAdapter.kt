@@ -39,6 +39,7 @@ class EmojiAdapter(val emojis: ArrayList<String>) : RecyclerView.Adapter<EmojiAd
 
         override fun onClick(p0: View?) {
             val detailIntent = Intent(view.context, EmojiDetailActivity::class.java)
+            detailIntent.putExtra("emoji", emoji)
             startActivity(view.context,detailIntent,null)
         }
     }
